@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76A8C7B32CF03F04008155DA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8C7B22CF03F04008155DA /* main.swift */; };
+		76A8C7B52CF040D1008155DA /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8C7B42CF040D1008155DA /* WindowController.swift */; };
 		76C2528D2CF03C4A00BFE3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */; };
 		76C2528F2CF03C4A00BFE3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */; };
 		76C252912CF03C4C00BFE3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C252902CF03C4C00BFE3B1 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		76A8C7B22CF03F04008155DA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		76A8C7B42CF040D1008155DA /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		76C252892CF03C4A00BFE3B1 /* ProgrammaticMacAppStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticMacAppStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */,
 				76A8C7B22CF03F04008155DA /* main.swift */,
+				76A8C7B42CF040D1008155DA /* WindowController.swift */,
 				76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */,
 				76C252902CF03C4C00BFE3B1 /* Assets.xcassets */,
 				76C252952CF03C4C00BFE3B1 /* ProgrammaticMacAppStarter.entitlements */,
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C2528F2CF03C4A00BFE3B1 /* ViewController.swift in Sources */,
+				76A8C7B52CF040D1008155DA /* WindowController.swift in Sources */,
 				76C2528D2CF03C4A00BFE3B1 /* AppDelegate.swift in Sources */,
 				76A8C7B32CF03F04008155DA /* main.swift in Sources */,
 			);
