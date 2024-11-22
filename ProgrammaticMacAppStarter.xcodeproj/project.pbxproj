@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76A8C7B32CF03F04008155DA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8C7B22CF03F04008155DA /* main.swift */; };
 		76C2528D2CF03C4A00BFE3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */; };
 		76C2528F2CF03C4A00BFE3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */; };
 		76C252912CF03C4C00BFE3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C252902CF03C4C00BFE3B1 /* Assets.xcassets */; };
-		76C252942CF03C4C00BFE3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C252922CF03C4C00BFE3B1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76A8C7B22CF03F04008155DA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		76C252892CF03C4A00BFE3B1 /* ProgrammaticMacAppStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticMacAppStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76C252902CF03C4C00BFE3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		76C252932CF03C4C00BFE3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76C252952CF03C4C00BFE3B1 /* ProgrammaticMacAppStarter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProgrammaticMacAppStarter.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,9 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				76C2528C2CF03C4A00BFE3B1 /* AppDelegate.swift */,
+				76A8C7B22CF03F04008155DA /* main.swift */,
 				76C2528E2CF03C4A00BFE3B1 /* ViewController.swift */,
 				76C252902CF03C4C00BFE3B1 /* Assets.xcassets */,
-				76C252922CF03C4C00BFE3B1 /* Main.storyboard */,
 				76C252952CF03C4C00BFE3B1 /* ProgrammaticMacAppStarter.entitlements */,
 			);
 			path = ProgrammaticMacAppStarter;
@@ -120,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C252912CF03C4C00BFE3B1 /* Assets.xcassets in Resources */,
-				76C252942CF03C4C00BFE3B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,21 +132,11 @@
 			files = (
 				76C2528F2CF03C4A00BFE3B1 /* ViewController.swift in Sources */,
 				76C2528D2CF03C4A00BFE3B1 /* AppDelegate.swift in Sources */,
+				76A8C7B32CF03F04008155DA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		76C252922CF03C4C00BFE3B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76C252932CF03C4C00BFE3B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		76C252962CF03C4C00BFE3B1 /* Debug */ = {
@@ -279,7 +268,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +292,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
